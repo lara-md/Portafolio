@@ -1,0 +1,298 @@
+
+
+@font-face{
+    font-family: "google sans regular";
+    src: url('/font/GoogleSans-Regular.ttf');
+    
+}
+
+@font-face{
+    font-family: "google sans medium";
+    src: url('/font/GoogleSans-Medium.ttf');
+    
+}
+
+
+body {
+    background-color: #FFF5EE;
+    font-family: "google sans regular";
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+nav{
+    border: 2px solid  #003262;
+    border-radius: 30px;
+    text-align: right;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ipsum{
+    color: #003262;
+    margin: 0px;
+    padding: 8px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a {
+    color: #003262;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 8px 20px;
+    border: 2px solid  #003262;
+}
+nav a:hover{
+    color:  white;
+     background-color: #003262;
+}
+
+header{
+    padding: 15px 30px;
+    position: relative;
+    background: radial-gradient(circle 150px at 5% 10%, #FB607F90, #fff5ee00),
+    radial-gradient(circle 120px at 30% 60%, #FB607F90, #fff5ee00),
+    radial-gradient(circle 200px at 80% 20%, #FB607F90, #fff5ee00);
+}
+
+.flecha{
+    background-color: #228B22;
+    position: absolute;
+    padding: 10px;
+    border-radius:25px;
+    margin-left:45%
+}
+
+.titulo{
+    margin-top: 200px;
+}
+
+.esquinero{
+    position:absolute;
+    right: 20px;
+    padding: 20px;
+}
+
+header h1, header h3{
+    text-align:left;
+    padding-left: 350px;
+    margin: 0px;
+}
+
+h1{
+    color: #003262;
+    font-size: 100px;
+    margin: 0;
+    font-family: "google sans medium";
+}
+
+h2, h3{
+    color: #FB607F;
+    font-family: "google sans medium";
+}
+
+h2{
+    font-size: 30px;
+}
+
+h5, h3{
+    margin: 5px;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.round{
+    border-radius: 25px;
+}
+
+.texto{
+    padding: 0px 0px 0px 80px;
+}
+
+.centrado{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+}
+
+section #hab, article {
+    margin: 0px 30px;
+    padding: 40px 100px;
+}
+
+section #hab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul{
+    padding:0px;
+}
+
+section #hab ul{
+    padding:5px;
+    list-style: none;
+}
+
+section #hab li{
+    display: inline-block;
+    border-radius: 30px;
+    padding:10px;
+}
+
+section #proy{
+    margin:0px;
+    padding: 30px;
+    background-color: #003262;
+    color:#FB607F;
+}
+
+section #proy h2{
+    margin-top:0px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: #FFF5EE;
+    border-radius: 20px;
+    padding:20px;
+}
+
+section #proy h2{
+    color: white;
+    padding: 5px;
+}
+
+section #proy ul{
+    list-style: none;
+    padding: 0px 0px;
+}
+
+section #proy li{
+    background-color: #003262;
+    color: white;
+    display: inline;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+section #proy img{
+    width: 260px;
+    border-radius: 15px;
+}
+
+aside{
+    padding: 20px 100px;
+    display: flex;
+    list-style:none;
+    justify-content: space-between;
+    margin: 40px 130px;
+}
+
+aside a{
+    text-decoration: underline;
+    color: #FB607F;
+}
+
+aside :hover{
+    text-decoration: none;
+    color: #003262;  
+}
+
+footer{
+    background-color: #FB607F;
+    color: white;
+    padding: 25px;
+    text-align:center;
+}
+
+.rosa{
+    background-color: #FB607F;
+    color: #ffffff;
+}
+
+.blanco{
+    background-color: #ffffff;
+    color: #003262;
+}
+
+.azul{
+    background-color: #003262;
+    color: #ffffff;
+}
+
+@media screen and (max-width:600px){
+
+    .ipsum{
+        display: none;
+    }
+
+    nav a{
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    nav{
+        justify-content: center;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    header h1, header h3{
+    text-align:left;
+    padding-left: 30px;
+    margin: 0px;
+    }
+
+    header img{
+        width: 100px ;
+        padding-top: 30%;
+    }
+
+    
+    .flecha{
+    width: 24px;
+}
+
+    article, section #hab, aside{
+        display: block;
+        width: 80%;
+        margin: 0px 0px;
+        padding: 30px;
+    }
+
+    .texto{
+    padding: 0px;
+    }
+
+    section #hab img{
+        
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    }
+
+    .cards{
+        overflow-x:auto;
+    }
+}
