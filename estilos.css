@@ -4,7 +4,6 @@ body {
     background-color: #FFF5EE;
     overflow-x: hidden;
     margin: 0px;
-    font-family: "Google Sans", sans-serif;
 }
 
 nav{
@@ -50,6 +49,10 @@ header{
     radial-gradient(circle 200px at 80% 20%, #FB607F90, #fff5ee00);
 }
 
+h1, h2, h3, h4, h5, h6, p, li{
+    font-family: "Google Sans", sans-serif;
+}
+
 .flecha{
     background-color: #228B22;
     position: absolute;
@@ -78,12 +81,10 @@ h1{
     color: #003262;
     font-size: 100px;
     margin: 0;
-    font-family: "Google Sans", sans-serif;
 }
 
 h2, h3{
     color: #FB607F;
-    font-family: "Google Sans", sans-serif;
 }
 
 h2{
