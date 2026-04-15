@@ -1,21 +1,16 @@
 
-
-@font-face{
-    font-family: "google sans regular";
-    src: url('/font/GoogleSans-Regular.ttf');
-    
+.google-sans-regular {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
 }
-
-@font-face{
-    font-family: "google sans medium";
-    src: url('/font/GoogleSans-Medium.ttf');
-    
-}
-
 
 body {
     background-color: #FFF5EE;
-    font-family: "google sans regular";
+    font-family: "google-sans-regular";
     overflow-x: hidden;
     margin: 0px;
 }
